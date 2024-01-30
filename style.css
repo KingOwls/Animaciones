@@ -1,0 +1,28 @@
+#anim{
+    background: url(FondoPantalla.jpg) no-repeat;
+    width: 1500px;
+    height: 850px ;
+}
+
+#nube{
+    background: url(Nube.png) no-repeat;
+    width: 480;
+    height: 277;
+    position: relative;
+    top: 0;
+    left: 100%;
+    animation-name: Nube;
+    animation-duration: 12s;
+    animation-fill-mode: both;
+    animation-delay: calc(var(--star-delay));
+}
+
+#Flor{
+    background: url(Flor.png);
+}
+#Sol{
+    background: url(Sol.png);
+}
+#Gotas{
+    background: url(Gota.png);
+}
