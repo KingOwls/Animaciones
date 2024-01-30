@@ -1,28 +1,75 @@
 #anim{
     background: url(FondoPantalla.jpg) no-repeat;
-    width: 1500px;
-    height: 850px ;
+    width: 1600px;
+    height: 800px ;
+    background-size: cover; 
 }
 
 #nube{
     background: url(Nube.png) no-repeat;
-    width: 480;
-    height: 277;
+    background-size: cover; 
+    width: 250px;
+    height: 200px;
     position: relative;
-    top: 0;
     left: 100%;
+    top: 15%;
     animation-name: Nube;
-    animation-duration: 12s;
+    animation-duration: 10s;
     animation-fill-mode: both;
     animation-delay: calc(var(--star-delay));
 }
 
 #Flor{
     background: url(Flor.png);
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background-size: cover; 
+    left: 40%;
+    bottom: -18%;
+    animation-name: Flor;
+    animation-duration: 12s;
+    animation-fill-mode: both;
+    animation-delay: calc(var(--star-delay));
 }
 #Sol{
     background: url(Sol.png);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 85%;
+    top: -25%;
+    background-size: cover; 
+    animation-name: Sol;
+    animation-duration: 12s;
+    animation-fill-mode: both;
+    animation-delay: calc(var(--star-delay));
 }
 #Gotas{
     background: url(Gota.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover; 
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: Gotas;
+    animation-duration: 12s;
+    animation-fill-mode: both;
+    animation-delay: calc(var(--star-delay));
+}
+
+@keyframes Nube{
+
+}
+@keyframes Flor{
+
+}
+@keyframes Sol{
+
+}
+@keyframes Gotas{
+
 }
